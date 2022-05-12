@@ -1,23 +1,19 @@
 
-# Desk360 (react native sdk)
+# Desk360 React Native SDK
 
-  
 
-* This package gives' wrapper methods for desk360 sdks. [iOS](https://github.com/Teknasyon-Teknoloji/desk360-ios-sdk) - [Android](https://github.com/Teknasyon-Teknoloji/desk360-android-sdk)
+* This package gives wrapper methods for Desk360 sdks. [iOS](https://github.com/Teknasyon-Teknoloji/desk360-ios-sdk) - [Android](https://github.com/Teknasyon-Teknoloji/desk360-android-sdk)
 * Before implementing, fetch SDK App Key from Desk360 dashboard.
-* 
   
 
 ---
 
-  
-  
 
 ## Getting started
 
   
 
-`$ npm install react-native-desk360rn --save`
+`$ npm install Teknasyon-Teknoloji/desk360-react-native-sdk#1.0.0 --save`
 
   
 
@@ -37,6 +33,8 @@ Run `$ react-native link react-native-desk360rn` to link the library.
 - Set ios version to 10.0 or higher in `ios/Podfile` like: `platform :ios, '10.0'`
 
 - Remove `flipper` from `ios/Podfile` if exists.
+
+- Add `use_frameworks!`for your target
 
 - Run `$ cd ios && pod install`
 
@@ -112,17 +110,12 @@ RNDesk360.getInstance().initialize({
 	"jsonInfo":{
 		"key":"value"
 	}
-}, "NOTIFICATION TOKEN");
+});
 
 RNDesk360.getInstance().start(); // shows Desk360
 
 ```
 
-  
-
-### IOS only methods
-
-  
 
 ### Important footnot
 
@@ -307,18 +300,10 @@ RNDesk360.getInstance().ticketDetailsViewController(unreadTicket);
 
 You should use [Desk360](https://desk360.com/) dashboard for custom config.
 
-  
 
-## Contributing
-
-  
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-  
 
 ## License
 
   
-
-MIT
+  
+Desk360 is released under the MIT license. See [LICENSE](https://github.com/Teknasyon-Teknoloji/desk360-react-native-sdk/blob/master/LICENSE) for more information.
