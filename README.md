@@ -13,7 +13,7 @@
 
   
 
-`$ npm install Teknasyon-Teknoloji/desk360-react-native-sdk#1.0.0 --save`
+`$ npm install Teknasyon-Teknoloji/desk360-react-native-sdk#1.1.0 --save`
 
   
 
