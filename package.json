@@ -1,6 +1,6 @@
 {
   "name": "react-native-desk360rn",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React Native Plugin of Desk360",
   "main": "src/index",
   "module": "lib/module/index",
