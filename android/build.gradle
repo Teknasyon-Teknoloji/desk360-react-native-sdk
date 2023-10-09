@@ -129,6 +129,6 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation 'com.github.Teknasyon-Teknoloji:desk360-android-sdk:1.0.6'
+  implementation 'com.github.Teknasyon-Teknoloji:desk360-android-sdk:1.0.10'
   implementation 'com.google.code.gson:gson:2.8.2'
 }
